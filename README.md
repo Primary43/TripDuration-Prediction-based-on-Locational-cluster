@@ -11,7 +11,7 @@ This objective is to apply statistical analysis and predictive modeling techniqu
     <img src="https://github.com/Primary43/TripDuration-Prediction-based-on-Locational-cluster/blob/main/asset/temporal.png" alt="temporal", width=1000>
 </div>
 <div align="center">
-    <img src="https://github.com/Primary43/TripDuration-Prediction-based-on-Locational-cluster/blob/main/asset/location-temporal.png" alt="temporal", width=1000>
+    <img src="https://github.com/Primary43/TripDuration-Prediction-based-on-Locational-cluster/blob/main/asset/gif.gif" alt="temporal", width=1000>
 </div>
 
 ### Task 2: Feature Engineering
