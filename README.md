@@ -2,12 +2,19 @@
 This objective is to apply statistical analysis and predictive modeling techniques by integrating location cluster features into a regression model aimed at predicting taxi trip durations. As this dataset contains taxi trip duration records over six months, necessitating scalable data handling and integration with additional data like weather or events in the next development phase. In this context:
 - PySpark offers scalable data processing and efficient integration, ideal for expanding datasets and building advanced data pipelines.
 - MLflow manages the machine learning lifecycle, covering experimentation, reproducibility, and monitoring.
+<div align="center">
+    <img src="https://github.com/Primary43/TripDuration-Prediction-based-on-Locational-cluster/blob/main/asset/brick.png" alt="temporal", width=1000>
+</div>
 
-### Task 1: Exploratory Data Analysis (EDA) and variance analysis
-- 1.1 Evaluation of temporal patterns with distance and duration.
-- 1.2 Exploration of data specific to vendors and flags.
-- 1.3 Investigation of correlations among passengers.
-- 1.4 Analysis of spatial data.
+### Task 1: Data Ingestion 
+Data ingestion into Delta Lake from an AWS S3 bucket enhances reliability and performance, supporting complex ETL operations. The process involves cleansing and transforming the data, as well as feature extraction for analytical purposes. This includes extracting date components from datetime fields and deriving insights from geospatial data.
+
+
+### Task 2: Exploratory Data Analysis (EDA) and variance analysis
+- 2.1 Evaluation of temporal patterns with distance and duration.
+- 2.2 Exploration of data specific to vendors and flags.
+- 2.3 Investigation of correlations among passengers.
+- 2.4 Analysis of spatial data.
   A synthesis of the findings was performed, focusing on patterns of pickups and drop-offs over different time frames.
 <div align="center">
     <img src="https://github.com/Primary43/TripDuration-Prediction-based-on-Locational-cluster/blob/main/asset/temporal.png" alt="temporal", width=1000>
